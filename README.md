@@ -50,22 +50,22 @@ A YOLOv8 model was trained using real match footage, including:
 
 ▶️ Running the Pipeline
 Install dependencies:
-
+```
 !pip install  ultralytics opencv-python-headless scikit-learn
 !pip install inference supervision
-
+```
 Change the video input, start and finish frame
 
-
+```
 max_frames = 500  # ajustá este número según lo que necesites
 start_frame = 200 # Define el número de frame donde quieres empezar
 filename='/content/video3.webm.mkv'
-
+```
 
 Execute the scrypt
-
+```
 python detectGoal.py
-
+```
 🙏 Credits
 Ultralytics: for YOLOv8
 
